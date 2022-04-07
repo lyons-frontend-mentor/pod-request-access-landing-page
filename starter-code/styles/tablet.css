@@ -41,7 +41,7 @@
   }
 
   .main-content {
-    margin-bottom: 152px;
+    margin-bottom: 40px;
 
     z-index: 1;
 
@@ -105,9 +105,13 @@
 
   /* Decorative dots */
   .dots {
-    left: 0;
+    left: 40px;
     bottom: 0;
 
+    /* Only matters if screen height is too small; pushes dots under main background */
+    z-index: -1;
+    
+    position: fixed;
     width: 232px;
     height: 104px;
 

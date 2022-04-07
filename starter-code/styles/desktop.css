@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1170px) {
+  :root {
+    --fs-title: 52px;
+    --lh-title: 62px;
+  }
+
+  /* Max-width 1110px, and auto inline margin */
+  body {
+    margin-top: 112px;
+    margin-left: unset;
+    margin-right: unset;
+    margin-inline: auto;
+
+    max-width: 1110px;
+  }
+
+  .logo {
+    margin-bottom: 102px;
+  }
+
+
+  /* Make image hug right-hand side */
+  .host-image {
+    bottom: 0;
+    right: calc((100% - 100vw) / 2);
+    z-index: -1;
+
+    width: 962px;
+    height: 654px;
+
+    background-image: url('../assets/desktop/image-host.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-content {
+    /* Reduce margin from before to prevent vertical scroll bar, but allow some space at bottom */
+    margin-bottom: 60px;
+
+    padding-right: 58px;
+
+    width: fit-content;
+  }
+
+  /* Decorative dots alignment with image */
+  .dots {
+    position: absolute;
+    left: unset;
+    right: calc((100% - 100vw) / 2);
+  }
+}

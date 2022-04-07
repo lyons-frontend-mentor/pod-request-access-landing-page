@@ -25,6 +25,9 @@
 
   font-size: var(--fs-body);
   line-height: var(--lh-body);
+
+  /* So scroll bar doesn't contribute to width; otherwise, setting image to right-hand side of screen will be messed up due to the extra width from scroll bar */
+  overflow-y: overlay;
 }
 
 /* Typography */
