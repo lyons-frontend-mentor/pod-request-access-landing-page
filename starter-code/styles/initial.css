@@ -1,7 +1,7 @@
 /* Custom properties */
 :root {
   /* Colors */
-  --gray-200: hsl(225, 21%, 45%);
+  --gray-200: hsl(225, 40%, 83%);
   --gray-400: hsl(225, 21%, 45%);
   --gray-600: hsl(225, 26%, 23%);
   --gray-800: hsl(224, 35%, 11%);
@@ -24,7 +24,6 @@
   --lh-error: 1.0;
 }
 
-
 /* Typography */
 /* #region */
 
@@ -34,6 +33,7 @@ body {
 }
 
 .title {
+  color: var(--white);
   font-size: var(--fs-title);
   line-height: var(--lh-title);
   font-weight: 400;
@@ -41,6 +41,7 @@ body {
 }
 
 .body-text {
+  color: var(--gray-200);
   font-size: var(--fs-body);
   line-height: var(--lh-body);
   font-weight: 400;
@@ -50,6 +51,9 @@ body {
   font-size: var(--fs-input);
   line-height: var(--lh-input);
   font-weight: 700;
+}
+.input::placeholder {
+  opacity: 0.5;
 }
 
 .error {
@@ -70,15 +74,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Border-box */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default cite styling */
-cite {
-  font-style: unset;
+/* Remove default list styling */
+ul {
+  list-style: unset;
+  list-style-type: none;
 }
 
 /* Remove default input styling */

@@ -1,2 +1,3 @@
-@import "defaults.css";
-@import "custom-props.css";
+@import "initial.css";
+@import "general.css";
+@import "mobile.css";

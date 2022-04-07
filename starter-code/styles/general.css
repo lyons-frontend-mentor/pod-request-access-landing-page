@@ -1,0 +1,28 @@
+/* Accent color in title */
+.title > .--highlight {
+  color: var(--accent);
+}
+
+/* General styling for inputs */
+.input {
+  border-radius: 28px;
+}
+.email,
+.email::placeholder {
+  color: var(--white);
+}
+.submit {
+  color: var(--gray-800);
+  background-color: var(--accent);
+}
+.submit:hover,
+.submit:focus {
+  background-color: var(--accent-hover);
+}
+
+/* Layout for logos */
+.logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
