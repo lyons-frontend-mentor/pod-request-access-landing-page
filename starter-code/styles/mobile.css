@@ -81,7 +81,12 @@
     background: var(--gray-600);;
   }
   .submit {
-
     text-align: center;
+  }
+  
+  /* Position error below e-mail input but not CTA */
+  .error {
+    top: 54px;
+    left: 32px;
   }
 }

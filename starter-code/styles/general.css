@@ -26,3 +26,25 @@
   justify-content: space-between;
   align-items: center;
 }
+
+
+.form {
+  /* Positioning of error message */
+  position: relative;
+}
+.error {
+  position: absolute;
+
+  /* Hide error by default, including from screen readers */
+  display: none;
+
+  color: var(--error);
+}
+/*
+  When form is invalid (only possible due to e-mail error) and has been submitted, reveal the error.
+  Submitting will add the '--submitted' class
+*/
+.--submitted.form:invalid > .error,
+.--empty.form > .error {
+  display: unset;
+}

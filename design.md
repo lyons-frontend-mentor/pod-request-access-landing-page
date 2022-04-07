@@ -67,7 +67,6 @@
 - Host image is background on body, and receives blend
 - Title and body text center-aligned
 - Text input and CTA are separate
-- Not explicit part of Figma, but input error message fits best above right of text input
 
 #### Dimensions
 
@@ -96,8 +95,7 @@
     - mb-16
     - px-32, py-9
     - Error message
-      - mb-8
-      - Above-right of text input
+      - 8px below input
   - CTA
     - mb-94
     - Text centered, py-9
@@ -139,8 +137,6 @@
   - CTA inside text input, on right
   - Text input
     - pl-32, pr-5, py-5 (note that y-padding adds together with CTA y-padding)
-    - Error message
-      - 8px below input
   - CTA
     - mb-94
     - px-27, py-9
