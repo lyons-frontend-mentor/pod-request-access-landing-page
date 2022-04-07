@@ -22,6 +22,9 @@
 
   --fs-error: 12px;
   --lh-error: 1.0;
+
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
 }
 
 /* Typography */

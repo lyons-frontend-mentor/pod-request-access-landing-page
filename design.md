@@ -115,14 +115,14 @@
 
 - Body
   - mt-50
-  - ml-40
-  - mx-24
+  - mx-40
 - Logo
   - mb-56
-  - Centered at top
+  - Left-aligned at top
 - Image
   - 491 x 767
 - Main content
+  - mb-152
   - Content left-aligned with rectangular box overlapping image
   - Leaves about 54px + 40px (x-margin) uncovered
   - Title
@@ -131,14 +131,13 @@
     - mb-40
   - Icons
     - Now *below* form
-    - mb-152
     - Height 29
 - Form
+  - mb-64
   - CTA inside text input, on right
   - Text input
     - pl-32, pr-5, py-5 (note that y-padding adds together with CTA y-padding)
   - CTA
-    - mb-94
     - px-27, py-9
 - Decorative dots
   - In lower-left of body, left-margin from body applies, sticks to bottom

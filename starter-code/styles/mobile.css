@@ -1,5 +1,5 @@
 /* Mobile only formatting */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 749px) {
   /* Everything centered */
   body {
     margin-top: 62px;
@@ -20,7 +20,6 @@
 
   /* Host image takes up entire background */
   .host-image {
-    position: absolute;
     top: 0;
     left: 0;
 
@@ -83,7 +82,6 @@
   .submit {
     text-align: center;
   }
-  
   /* Position error below e-mail input but not CTA */
   .error {
     top: 54px;
