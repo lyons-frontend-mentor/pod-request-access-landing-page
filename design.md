@@ -25,7 +25,6 @@
 - Gray 400
   - Icons
 - Gray 200
-  - CTA bg on hover
   - Body tex
 - White
   - "pod" in logo
@@ -37,7 +36,9 @@
   - First line of header
   - CTA bg
   - Decorative dots
-- Red
+- Accent hover; *not in Figma design system*
+  - CTA hover
+- Red; *not in Figma design system*
   - Error text, `#FB3E3E` (not provided in design system)
 
 ### Typography
@@ -88,6 +89,7 @@
   - Icons
     - mb-48
     - Flex with `space-between`
+    - Height 17
 - Form 
   - Inputs separate
   - Text input
@@ -132,6 +134,7 @@
   - Icons
     - Now *below* form
     - mb-152
+    - Height 29
 - Form
   - CTA inside text input, on right
   - Text input

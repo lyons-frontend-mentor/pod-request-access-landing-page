@@ -1,0 +1,113 @@
+/* Custom properties */
+:root {
+  /* Colors */
+  --gray-200: hsl(225, 21%, 45%);
+  --gray-400: hsl(225, 21%, 45%);
+  --gray-600: hsl(225, 26%, 23%);
+  --gray-800: hsl(224, 35%, 11%);
+  --white: hsl(0, 0%, 100%);
+  --accent: hsl(157, 74%, 62%);
+  --accent-hover: hsl(157, 100%, 85%);
+  --error: hsl(0, 96%, 61%);
+
+  /* Font sizes and line heights */
+  --fs-title: 26px;
+  --lh-title: 38px;
+
+  --fs-body: 15px;
+  --lh-body: 25px;
+
+  --fs-input: 14px;
+  --lh-input: 28px;
+
+  --fs-error: 12px;
+  --lh-error: 1.0;
+}
+
+
+/* Typography */
+/* #region */
+
+body {
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-size: var(--fs-title);
+  line-height: var(--lh-title);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  font-weight: 400;
+}
+
+.input {
+  font-size: var(--fs-input);
+  line-height: var(--lh-input);
+  font-weight: 700;
+}
+
+.error {
+  font-size: var(--fs-error);
+  line-height: var(--lh-error);
+  font-weight: 700;
+}
+
+
+/* #endregion */
+
+
+/* Resets */
+/* #region */
+
+/* Remove default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default cite styling */
+cite {
+  font-style: unset;
+}
+
+/* Remove default input styling */
+input {
+  all: unset;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Images are blocks */
+img {
+  display: block;
+}
+
+/*
+  Hiding labels for screen readers
+  https://piccalil.li/quick-tip/visually-hidden/
+*/
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+/* #endregion */
