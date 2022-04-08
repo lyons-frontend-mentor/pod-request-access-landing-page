@@ -8,8 +8,8 @@ Build a responsive landing page based on the provided Figma design files. Implem
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- See the solution [here](https://www.frontendmentor.io/solutions/email-validation-using-html5-and-invalid-pseudoelement-ByPDdf0mq).
+- See the live site [here](https://lyons-frontend-mentor.github.io/pod-request-access-landing-page/).
 
 ### Built with
 
