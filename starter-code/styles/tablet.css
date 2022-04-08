@@ -34,10 +34,6 @@
 
     width: 491px;
     height: 767px;
-
-    background-image: url('../assets/tablet/image-host.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .main-content {

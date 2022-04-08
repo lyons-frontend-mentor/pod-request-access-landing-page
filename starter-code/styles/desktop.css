@@ -2,6 +2,8 @@
   :root {
     --fs-title: 52px;
     --lh-title: 62px;
+
+    overflow-x: hidden;
   }
 
   /* Max-width 1110px, and auto inline margin */
@@ -25,12 +27,8 @@
     right: calc((100% - 100vw) / 2);
     z-index: -1;
 
-    width: 962px;
+    width: 880px;
     height: 654px;
-
-    background-image: url('../assets/desktop/image-host.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   .main-content {
     /* Reduce margin from before to prevent vertical scroll bar, but allow some space at bottom */

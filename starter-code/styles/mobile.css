@@ -34,6 +34,10 @@
     background-color: var(--gray-600);
     background-blend-mode: multiply;
   }
+  /* Using background-image instead of actual image to achieve blending */
+  .host-image > img {
+    display: none;
+  }
   
   .logo {
     margin-bottom: 56px;

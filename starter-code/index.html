@@ -20,7 +20,12 @@
   <main>
     <!-- For aligning bottom edge of image and content -->
     <div class="image-and-main">
-      <div class="host-image"></div>
+      <picture class="host-image">
+        <source media="(min-width:1170px)" srcset="assets/desktop/image-host.jpg">
+        <source media="(min-width:750px)" srcset="assets/tablet/image-host.jpg">
+        <!-- For mobile image, we hide in CSS and use background-image instead -->
+        <img src="assets/mobile/image-host.jpg" alt="">
+      </picture>
       <div class="main-content">
         <h1 class="title">
           <span class="--highlight">Publish your podcasts</span>
