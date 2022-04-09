@@ -52,7 +52,6 @@ body {
   When form is invalid (only possible due to e-mail error) and has been submitted, reveal the error.
   Submitting will add the '--submitted' class
 */
-.--submitted.form:invalid > .error,
-.--empty.form > .error {
+.--submitted.form:invalid > .error {
   display: unset;
 }

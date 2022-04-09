@@ -34,3 +34,5 @@ I want to start moving away from trying to mimic the Figma design doc exactly (i
 ### Acknowledgements
 
 Thanks to [@isprutfromua](https://www.frontendmentor.io/profile/isprutfromua) for commenting on one of my previous challenges to let me know about the `<picture>` element.
+
+Thanks to [@brasspetals](https://www.frontendmentor.io/profile/brasspetals) for pointing out that I can use the "required" attribute on my e-mail input to bypass the empty-input issue.
